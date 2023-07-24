@@ -9,7 +9,7 @@ const fullName = firstName + lastName;
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-const luckyNumber = 3;
+let luckyNumber = 3;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -67,12 +67,25 @@ if (pets < allowedPets){
 
 
 
+
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
 //      "Second is the best" if your lucky number is 2
 //      "Third is the one with the polka dot dress" if your lucky number is 3
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
+
+switch(luckyNumber){
+    case luckyNumber = 1: 
+        text = "First is the worst";
+    case luckyNumber = 2:
+        text = "Second is the best";
+    case luckyNumber = 3:
+        text = "Third is the one with the polka dot dress";
+        break;
+        default:
+            text = "Luck is what happens when preparation meets opportunity"
+}
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
